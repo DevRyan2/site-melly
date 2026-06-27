@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+:root {
+    --cor-header: #e2e26c;
+    --destaque: #000000 ;
+    --texto: #2e2e2e;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    background-color: var(--cor-header);
+}
+
+header > a img {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    object-fit: cover;
+}
+
+header > nav > ul {
+    display: flex;
+
+    gap: 15px;
+
+    padding: 5px;
+}
+
+header > nav > ul li {
+    list-style: none;
+}
+
+header > nav > ul > li a {
+    padding: 5px;
+
+    color: var(--texto);
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > nav > ul > li a:hover {
+    border-top: 3px solid var(--texto);
+
+    color: var(--destaque);
+
+    font-weight: bolder;
+}
+
+#principal {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#principal .imagem {
+    flex: 1 1 836px;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/melly-teste.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+
+.escuro {
+    background-color: #000000;
+}
+
+#album {
+    display: flex;
+    flex-flow: row wrap;
+
+    gap: 10px;
+
+    padding: 10px;
+
+    flex-basis: 1 1 300px;
+
+}
+
+#album .album-disc {
+    margin: auto;
+
+    height: 400px;
+    width: 450px;
+
+    background-color: rgb(150, 150, 150);
+}
+
+
