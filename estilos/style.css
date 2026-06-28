@@ -115,8 +115,8 @@ header > nav > ul > li a:hover {
 #album .album-disc {
     margin: auto;
 
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    max-width: 320px;
 
     background-color: rgb(150, 150, 150);
     box-shadow: 2px 2px 8px #000000ad;
