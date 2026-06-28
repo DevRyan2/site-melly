@@ -1,0 +1,24 @@
+@media screen and (min-width: 769px) {
+    #principal {
+        display: grid;
+
+        grid-template-columns: auto 90vw auto;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .imagem {
+        grid-column: 2;
+
+        background-position: bottom;
+    }
+
+    #principal > h1 {
+        display: inline;
+
+        grid-column: 2;
+    }
+
+    #album {
+        grid-column: 2;
+    }
+}
