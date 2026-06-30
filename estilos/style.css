@@ -106,14 +106,6 @@ header > nav > ul > li a:hover {
     padding-bottom: 50px;
 }
 
-.video iframe {
-    display: block;
-    height: auto;
-    width: 100%;
-    aspect-ratio: 16/9;
-    
-}
-
 #sobre > h2 {
     padding-bottom: 10px;
 
@@ -121,6 +113,22 @@ header > nav > ul > li a:hover {
     text-align: center;
     
     text-shadow: 1px 1px 1px #000000ad;
+}
+
+.sobre-flex {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+
+    padding: 10px;
+}
+
+.video iframe {
+    display: block;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+    
 }
 
 #sobre p {
@@ -161,6 +169,15 @@ header > nav > ul > li a:hover {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+#album .album-item {
+    gap: 50px;
+}
+
+#album .album-item h3 {
+    justify-self: flex-start;
+    align-self: flex-start;
 }
 
 #album .album-disc {
