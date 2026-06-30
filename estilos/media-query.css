@@ -17,12 +17,21 @@
         grid-column: 1 / -1;
         grid-row: 3 / 4;
 
+    }
+
+    #album .album-grid {
         display: flex;
         flex-flow: row wrap;
-
     }
 
     #album h2 {
         width: 100%;
     }
+}
+
+@media screen and (min-width: 1087px) {
+    #sobre .video{
+        grid-column: 1 / 2;
+    }
+
 }

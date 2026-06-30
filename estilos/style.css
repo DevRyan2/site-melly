@@ -14,7 +14,7 @@
     --cor-header: #e2e26c;
     --destaque: #000000 ;
     --texto: #2e2e2e;
-    --fundo: #ffffffcb;
+    --fundo: #f0eded;
     --fundo-branco: #ffffff;
 }
 
@@ -183,17 +183,18 @@ header > nav > ul > li a:hover {
     border-radius: 10px;
 }
 
-#feat {
+#galeria {
     grid-column: 1 / -1;
     grid-row: 4 / -1;
 
-    border: 1px solid black;
+    border: 2px solid red;
 }
 
-#feat > h2 {
+#galeria > h2 {
     padding: 10px;
 
     text-align: center;
+    text-shadow: 1px 1px 1px #000000ad;
     font-size: 1.8em;
 }
 
