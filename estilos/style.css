@@ -97,13 +97,18 @@ header > nav > ul > li a:hover {
 
     margin: 5px;
     border-radius: 8px;
-    padding: 15px;
     
     background-color: var(--fundo-branco);
 }
 
 #sobre .video {
-    padding-bottom: 50px;
+    align-self: center;
+    justify-self: center;
+
+    width: 90%;
+
+
+    /* padding-bottom: 50px; */
 }
 
 #sobre > h2 {
@@ -118,7 +123,11 @@ header > nav > ul > li a:hover {
 .sobre-flex {
     display: flex;
     flex-flow: column wrap;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
 
     padding: 10px;
 }
@@ -131,8 +140,13 @@ header > nav > ul > li a:hover {
     
 }
 
+.sobre-texto {
+    max-width: 500px;
+}
+
 #sobre p {
-    width: 80vw;
+    width: 100%;
+    padding: 10px;
     margin: auto;
 
     text-align: justify;

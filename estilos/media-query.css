@@ -13,12 +13,16 @@
         margin: 0px;
         padding: 0px;
 
-        width: 45vw;
+        width: 43%;
+    }
+
+    .sobre-texto {
+        flex: 0 1 400px;
     }
 
     #sobre p {
-        width: 45vw;
-        padding: 10px;
+        width: 100%;
+        padding: 5px;
     }
     
 
@@ -64,18 +68,20 @@
 
     #sobre .video{
         padding: 20px;
-        width: 50%;
+        width: 45%;
         padding: 0;
     }
 
     #sobre .sobre-texto {
+        flex: 0 1 400px;
         padding: 10px;
         margin: 0;
-        width: 40%;
+        height: auto;
+        /* width: 45vw; */
     }
 
     #sobre p {
-        max-width: 450px;
+        width: 100%;
         margin: 0;
     }
 
