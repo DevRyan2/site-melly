@@ -235,7 +235,7 @@ header > nav > ul > li a:hover {
     border: 1px solid black;
     margin: 0px 5px;
 
-    background-color: var(--fundo);
+    background-color: var(--fundo-branco);
     border-radius: 8px 8px 0px 0px;
 }
 
