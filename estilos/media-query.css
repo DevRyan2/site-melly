@@ -62,10 +62,6 @@
         align-items: center;
     }
 
-    #sobre > h2 {
-        
-    }
-
     #sobre .video{
         padding: 20px;
         width: 45%;
@@ -73,7 +69,7 @@
     }
 
     #sobre .sobre-texto {
-        flex: 0 1 400px;
+        flex: 0 1 450px;
         padding: 10px;
         margin: 0;
         height: auto;
@@ -83,6 +79,8 @@
     #sobre p {
         width: 100%;
         margin: 0;
+
+        font-size: 1.2em;
     }
 
 }
