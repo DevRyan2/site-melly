@@ -1,5 +1,13 @@
 @media screen and (min-width: 768px) {
 
+    #principal .imagem {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/melly-teste-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        aspect-ratio: 16/9;
+    }
+
     .sobre-flex {
         display: flex;
         flex-flow: row-reverse wrap;
@@ -81,6 +89,11 @@
         margin: 0;
 
         font-size: 1.2em;
+    }
+
+    #galeria {
+        max-width: 1087px;
+        margin: 0px auto;
     }
 
 }
