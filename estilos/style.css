@@ -82,7 +82,7 @@ header > nav > ul > li a:hover {
     display: grid;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 720px auto 1fr 1fr;
+    grid-template-rows: 720px auto 1fr auto;
     gap: 10px;
 }
 
@@ -232,19 +232,42 @@ header > nav > ul > li a:hover {
     grid-column: 1 / -1;
     grid-row: 4 / -1;
 
-    border: 1px solid black;
-    margin: 0px 5px;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1050px;
 
     background-color: var(--fundo-branco);
     border-radius: 8px 8px 0px 0px;
 }
 
 #galeria > h2 {
-    padding: 10px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+
+
+    padding-bottom: 30px;
 
     font-family: var(--fonte-destaque);
     text-align: center;
     font-size: 3em;
+}
+
+.galeria-flex {
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    gap: 5px;
+}
+
+.galeria-flex img {
+    width: 200px;
+    flex: 1 0 210px;
+
+    object-fit: cover;
 }
 
 footer {
