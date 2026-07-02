@@ -1,11 +1,13 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1086px) {
 
     #principal .imagem {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/melly-teste-tablet.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/melly-teste-pc.png);
         background-repeat: no-repeat;
         background-size: cover;
         object-fit: cover;
         aspect-ratio: 16/9;
+
+        
     }
 
     .sobre-flex {
@@ -34,8 +36,8 @@
     }
     
 
-    .imagem {
-        grid-column: 2;
+    #principal .imagem {
+        grid-column: 1 / -1;
 
         background-position: bottom;
     }
@@ -50,6 +52,8 @@
         grid-column: 1 / -1;
         grid-row: 3 / 4;
 
+        
+
     }
 
     #album .album-grid {
@@ -60,9 +64,21 @@
     #album h2 {
         width: 100%;
     }
+
+    
 }
 
 @media screen and (min-width: 1087px) {
+
+    #principal .imagem {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/melly-teste-pc.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        object-fit: cover;
+        aspect-ratio: 16/9;
+
+    }
+
     .sobre-flex {
         display: flex;
         flex-flow: row-reverse wrap;
@@ -91,9 +107,31 @@
         font-size: 1.2em;
     }
 
+    #album {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+
+        max-width: 1087px;
+        margin: 0px auto;
+
+        
+
+    }
+
+    #album .album-grid {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #album h2 {
+        width: 100%;
+    }
+
     #galeria {
         max-width: 1087px;
         margin: 0px auto;
+
+        
     }
 
 }

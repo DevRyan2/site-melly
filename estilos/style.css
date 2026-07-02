@@ -82,7 +82,7 @@ header > nav > ul > li a:hover {
     display: grid;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 720px auto 1fr auto;
+    grid-template-rows: 91vh auto 1fr auto;
     gap: 10px;
 }
 
@@ -97,7 +97,7 @@ header > nav > ul > li a:hover {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/melly-teste.jpg);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: bottom;
     background-size: cover;
 }
 
